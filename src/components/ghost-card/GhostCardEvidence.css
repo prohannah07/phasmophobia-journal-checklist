@@ -1,0 +1,60 @@
+:root {
+    --accent: #78E3EA;
+    --red: #FF2C2C;
+  }
+
+.evidence-lalagyan {
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+
+.not-found{
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.not-found:first-of-type{
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.not-found:last-of-type{
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.found{
+    background-color: var(--accent);
+    color: var(--red);
+    font-size: 12px;
+    padding: 8px;
+}
+
+.found:first-of-type{
+    background-color:var(--accent);
+    color: var(--red);
+    font-size: 12px;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.found:last-of-type{
+    background-color:var(--accent);
+    color:var(--red);
+    font-size: 12px;
+    padding: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

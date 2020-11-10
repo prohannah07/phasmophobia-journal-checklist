@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {EvidenceProvider} from './EvidenceContext'
+import DisplayGhostCards from './components/ghost-card/DisplayGhostCards'
+import DisplayEvidencePC from './components/found-evidences/DisplayEvidencePC'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <EvidenceProvider>
+      <div className="App">
+        
+        <div className="content-wrap">
+          <h1 className="website-title">PHASMOPHOBIA JOURNAL FOR DUMMIES ╮(￣ω￣;)╭</h1>
+          
+          <DisplayEvidencePC/>
+          <DisplayGhostCards/>
+        </div>
+        
+
+        <Footer/>
+      </div>
+    </EvidenceProvider>
   );
 }
 

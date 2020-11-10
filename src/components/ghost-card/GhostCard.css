@@ -1,0 +1,90 @@
+:root {
+    --accent: #78E3EA;
+    --red: #FF2C2C;
+    --ghostCardHeight: 230px;
+    --ghostCardWidth: 350px;
+    --ghostDescFontSize: 12px;
+    --ghostNameFontSize: 16px;
+  }
+
+.parent-ghost-card {
+    position: relative;
+    width: var(--ghostCardWidth);
+    height: var(--ghostCardHeight);
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+}
+
+.ghost-card-main {
+    position: absolute;
+    display: flex;
+    flex-direction: column ;
+    padding: 20px;
+    width: var(--ghostCardWidth);
+    height: var(--ghostCardHeight);
+    border-radius: 10px;
+    background-color: #161616; 
+
+}
+
+.ghost-card-white-shadow {
+    position: absolute;
+    width: var(--ghostCardWidth);
+    height: var(--ghostCardHeight);
+    border-radius: 10px;
+    background-color:  #131313;
+    box-shadow: -7px -7px 12px rgba(38, 38, 38, .5);
+}
+
+.ghost-card-black-shadow {
+    position: absolute;
+    width: var(--ghostCardWidth);
+    height: var(--ghostCardHeight);
+    border-radius: 10px;
+    background-color: #131313;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, .3);
+}
+
+.ghost-name {
+    background-color: transparent;
+    font-size: var(--ghostNameFontSize);
+    color: white;
+    font-weight: bold;
+}
+
+.ghost-evidences {
+    display: flex;
+    margin-top: 10px;
+    background-color: transparent;
+    align-items: flex-start;
+}
+
+.ghost-desc {
+    background-color: transparent;
+    font-size: var(--ghostDescFontSize);
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.ghost-sw {
+    background-color: transparent;
+    font-size: var(--ghostDescFontSize);
+    color: #CACACA;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.ghost-strengths {
+    background-color: transparent;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.ghost-weaknesses {
+    background-color: transparent;
+    color: var(--red);
+    font-weight: 700;
+}
+

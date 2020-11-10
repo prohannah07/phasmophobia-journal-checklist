@@ -1,0 +1,16 @@
+.pinaka-lalagyan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.evidence-lalagyan{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-lalagyan{
+    justify-content: center;
+}

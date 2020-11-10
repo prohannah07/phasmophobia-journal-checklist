@@ -1,0 +1,184 @@
+.parent-card{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 221px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+.parent-card-5-avail-evi{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 191px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+.parent-card-4-avail-evi{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 161px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+.parent-card-3-avail-evi{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 131px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+.parent-card-2-avail-evi{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 101px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+.parent-card-1-avail-evi{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 125px;
+    height: 71px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt white;
+    margin: 20px;
+}
+
+
+.parent-card-locked{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #7F7F7F;
+    width: 125px;
+    height: 71px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1pt #7F7F7F;
+    margin: 20px;
+}
+
+.evidence-number{
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.radio{
+    display: hidden;
+    visibility: hidden;
+}
+
+.label{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    height: 30px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.locked{
+    background-color: black;
+    position: relative;
+    color: #FF4040;
+    height: 30px;
+    width: 125px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.okay{
+    display: none;
+    visibility: none;
+}
+
+.unclicked{
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 30px;
+    width: 125px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+
+}
+
+.unclicked:hover{
+    background-color: #6FB7BC;
+}
+
+.unclicked:first-of-type{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.unclicked:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.clicked{
+    background-color: #78E3EA;
+    position: relative;
+    color: #FF4040;
+    height: 30px;
+    width: 125px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.clicked:first-of-type{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.clicked:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+

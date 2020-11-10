@@ -1,0 +1,17 @@
+.pinaka-lalagyan-mobile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.evidence-lalagyan-mobile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-lalagyan-mobile{
+    justify-content: center;
+}

@@ -186,7 +186,7 @@ function EvidencePC({evidenceNumber, locked}) {
                         <span className='evidence-number'>Evidence {evidenceNumber}</span>
 
                         {ghostEvidencesLeft.map((evidence) => (
-                            <EvidenceRadioButton evidenceNumber={evidenceNumber} evidenceClicked={buttonMap[evidence]} onChangeFunc={onChange}>{evidence}</EvidenceRadioButton>
+                            <EvidenceRadioButton key={evidence+"PC"} evidenceNumber={evidenceNumber} evidenceClicked={buttonMap[evidence]} onChangeFunc={onChange}>{evidence}</EvidenceRadioButton>
                         ))}        
         
                     </div>

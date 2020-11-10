@@ -21,8 +21,6 @@ function DisplayEvidencePC() {
             <div className="reset-lalagyan">
                 <ResetButton>Reset All</ResetButton>
             </div>
-            
-
         </div>
     )
 }

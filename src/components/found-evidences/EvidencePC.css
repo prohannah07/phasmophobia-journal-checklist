@@ -149,6 +149,7 @@
 
 .unclicked:hover{
     background-color: #6FB7BC;
+    transition: all 0.5s ease-out;
 }
 
 .unclicked:first-of-type{

@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import EvidencePC from './EvidencePC'
 import './DisplayEvidencePC.css'
 import {EvidenceContext} from './../../EvidenceContext'
@@ -19,6 +19,18 @@ function DisplayEvidencePC() {
     const[thirdEvidenceFound, setThirdEvidenceFound] = evidence3
     const [isDisplayTable, setIsDisplayTable] = displayTable
 
+    const [isScreenWideEnuf, setIsScreenWideEnuf] = useState(true)
+
+    const checkScreenSize = () => {
+        if(window.innerWidth <= 750) {
+            setIsScreenWideEnuf(false)
+        }else{
+            setIsScreenWideEnuf(true)
+        }
+    }
+
+    window.addEventListener('resize', checkScreenSize)
+
     return (
         <div className="pinaka-labas-lalagyan">
             <div className="pinaka-lalagyan">
@@ -30,11 +42,13 @@ function DisplayEvidencePC() {
 
                 <div className="reset-lalagyan">
                     <ResetButton>Reset All</ResetButton>
-                    {isBrowser ? <ShowTableButton/> : null}
+                    {isScreenWideEnuf ? <ShowTableButton/> : null}
                 </div>
             </div>
              
-            {isBrowser ? (isDisplayTable ? <DisplayGhostTable/> : null) : null}
+            {isScreenWideEnuf ? (isDisplayTable ? <DisplayGhostTable/> : null) : null}
+
+            {/* {isBrowser ? (isDisplayTable ? <DisplayGhostTable/> : null) : null} */}
             
         </div>
     )

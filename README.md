@@ -1,6 +1,6 @@
 # PHASMOPHOBIA JOURNAL CHECKLIST FOR DUMMIES
 
-I got tired of flippin through the damn journal
+I got tired of flippin through the damn journal.\
 Currently Hosted here: [https://phasmophobia-journal-checklist.web.app](https://phasmophobia-journal-checklist.web.app)
 
 ## Available Scripts

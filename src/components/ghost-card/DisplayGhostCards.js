@@ -13,8 +13,6 @@ function DisplayGhostCards() {
 
     const [ghostsLeft, setGhostsLeft] = useState([...ghostDatabase])
 
-    // ghostsLeft.filter((ghost)=>(ghost['evidence'].includes(firstEvidenceFound)))
-
     useEffect(() => {
  
         if (firstEvidenceFound.length>0 && secondEvidenceFound.length>0 && thirdEvidenceFound.length>0){

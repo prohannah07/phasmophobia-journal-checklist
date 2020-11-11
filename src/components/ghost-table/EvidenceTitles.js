@@ -5,13 +5,10 @@ import Switch from 'react-neumorphic-toggle';
 
 const EvidenceTitles = ({firstEvidence, secondEvidence, thirdEvidence, fourthEvidence, fifthEvidence, sixthEvidence}) => {
 
-    const {evidence1, evidence2, evidence3, prev1, prev2, prev3, displayTable} = useContext(EvidenceContext)
+    const {evidence1, evidence2, evidence3, displayTable} = useContext(EvidenceContext)
     const[firstEvidenceFound, setFirstEvidenceFound] = evidence1
     const[secondEvidenceFound, setSecondEvidenceFound] = evidence2
     const[thirdEvidenceFound, setThirdEvidenceFound] = evidence3
-    const[firstPrevClicked, setFirstPrevClicked] = prev1
-    const[secondPrevClicked, setSecondFirstPrevClicked] = prev2
-    const[thirdPrevClicked, setThirdPrevClicked] = prev3
     const [isDisplayTable, setIsDisplayTable] = displayTable
 
     const isDisplayTableFunc = () => {

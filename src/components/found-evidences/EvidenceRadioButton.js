@@ -2,8 +2,6 @@ import React from 'react'
 
 function EvidenceRadioButton({evidenceNumber, evidenceClicked, children, onChangeFunc}) {
 
-    // const [isClicked, setIsClicked] = useState(false)
-
     return (
         <div className={evidenceClicked ? "clicked" : "unclicked"} onChange={(e) => onChangeFunc(e)}>
             <input type="radio" name="evidence" id={children + evidenceNumber} value={children} className="radio"/>

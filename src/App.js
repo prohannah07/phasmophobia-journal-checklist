@@ -1,20 +1,17 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React from 'react'
 import './App.css';
 import {EvidenceProvider} from './EvidenceContext'
 import DisplayGhostCards from './components/ghost-card/DisplayGhostCards'
 import DisplayEvidencePC from './components/found-evidences/DisplayEvidencePC'
 import DisplayEvidenceMobile from './components/found-evidences/DisplayEvidenceMobile'
 import Footer from './components/Footer'
-import EvidenceTitles from './components/ghost-table/EvidenceTitles'
-import DisplayGhostTable from './components/ghost-table/DisplayGhostTable'
-
 import {
   BrowserView,
   MobileView,
   isBrowser,
   isMobile
 } from "react-device-detect";
-import Switch from "react-switch";
+
 
 function App() {
       

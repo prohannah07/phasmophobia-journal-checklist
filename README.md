@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-**Note: RUN THIS FIRST!**
+**Note: RUN THIS FIRST!**\
 Install any 3rd party libraries added and used in the project.
 
 ### `npm start`

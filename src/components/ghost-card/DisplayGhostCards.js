@@ -16,8 +16,7 @@ function DisplayGhostCards() {
     // ghostsLeft.filter((ghost)=>(ghost['evidence'].includes(firstEvidenceFound)))
 
     useEffect(() => {
-        console.log("hello")
-
+ 
         if (firstEvidenceFound.length>0 && secondEvidenceFound.length>0 && thirdEvidenceFound.length>0){
             setGhostsLeft(ghostDatabase.filter((ghost)=>(ghost['evidence'].includes(firstEvidenceFound) && ghost['evidence'].includes(secondEvidenceFound) && ghost['evidence'].includes(thirdEvidenceFound) )))
         }else if (firstEvidenceFound.length>0 && secondEvidenceFound.length>0){
@@ -34,11 +33,16 @@ function DisplayGhostCards() {
     }, [firstEvidenceFound, secondEvidenceFound, thirdEvidenceFound])
 
     return (
-        <div className="ghost-cards-lalagyan">
-            {ghostsLeft.map((ghost)=>(
-                <GhostCard key={ghost["name"]} ghostName={ghost["name"]} ghostDesc={ghost["description"]} ghostStrengths={ghost["strengths"]} ghostWeaknesses={ghost["weaknesses"]} ghostEvidences={ghost["evidence"]}/>
-            ))}
-      </div>
+        <div className="as-in-pinaka-labas">
+            {/* <span className="possible-ghosts">Possible Ghosts</span> */}
+
+            <div className="ghost-cards-lalagyan">
+                {ghostsLeft.map((ghost)=>(
+                    <GhostCard key={ghost["name"]} ghostName={ghost["name"]} ghostDesc={ghost["description"]} ghostStrengths={ghost["strengths"]} ghostWeaknesses={ghost["weaknesses"]} ghostEvidences={ghost["evidence"]}/>
+                ))}
+            </div>
+        </div>
+        
     )
 }
 

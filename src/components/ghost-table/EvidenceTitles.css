@@ -1,0 +1,119 @@
+.evidence-titles-lalagyan{
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: 35px;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+
+.placebo-lalagyan{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.react-switch{
+    position: absolute;
+    align-items: center;
+    height: 5px;
+    width: 10px;
+    vertical-align: middle;
+    margin-left: 4px;
+    background-color: transparent;
+    margin-top: -25px;
+    margin-left: 20px;
+
+}
+
+.single-evidence{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+}
+
+/* .single-evidence:first-of-type{   
+    border-top-left-radius: 5px;
+} */
+
+.single-evidence:nth-child(2){   
+    border-top-left-radius: 5px;
+}
+
+.single-evidence:last-of-type{   
+    border-top-right-radius: 5px;
+}
+
+.single-evidence-name{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.single-evidence-found{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: #78E3EA;
+}
+
+.single-evidence-found:first-of-type{
+    border-top-left-radius: 5px;
+}
+
+.single-evidence-name-found{
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF4040;
+    background-color: transparent;
+}
+
+.display-table-button-no{
+    font-weight: 12px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.display-table-button-no:hover{
+    background-color: #8f9797;
+    transition: all 0.3s ease-out;
+}
+
+.display-table-button-yes{
+    font-weight: 12px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 8px;
+
+}
+
+.display-table-button-yes:hover{
+    background-color: #8f9797;
+    transition: all 0.3s ease-out;
+}

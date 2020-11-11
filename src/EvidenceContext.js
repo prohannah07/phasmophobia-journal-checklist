@@ -12,6 +12,8 @@ export const EvidenceProvider = (props) => {
     const[secondPrevClicked, setSecondFirstPrevClicked] = useState("")
     const[thirdPrevClicked, setThirdPrevClicked] = useState("")
 
+    const [isDisplayTable, setIsDisplayTable] = useState(true)
+
 
     return(
         <EvidenceContext.Provider 
@@ -21,6 +23,7 @@ export const EvidenceProvider = (props) => {
                 prev1 : [firstPrevClicked, setFirstPrevClicked],
                 prev2 : [secondPrevClicked, setSecondFirstPrevClicked],
                 prev3 : [thirdPrevClicked, setThirdPrevClicked],
+                displayTable: [isDisplayTable, setIsDisplayTable]
             }}
         >
             {props.children}

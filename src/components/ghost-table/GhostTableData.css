@@ -1,0 +1,118 @@
+.ghost-data-lalagyan{
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: 35px;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+
+.ghost-name-lalagyan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+}
+
+.ghost-name-lalagyan-first{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-top-left-radius: 5px;
+}
+
+.ghost-name-lalagyan-last{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+}
+
+.ghost-name-lalagyan-both{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.ghost-name{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.possible-evidence{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+}
+
+.possible-evidence-last{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    position: relative;
+    border-bottom-right-radius: 5px;
+}
+
+.possible-evidence-found{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: #78E3EA;
+    position: relative;
+}
+
+.dot{
+    background-color: black;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.dot-found{
+    background-color: #FF4040;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}

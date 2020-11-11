@@ -1,0 +1,38 @@
+.display-table-button-no{
+    font-weight: 12px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 124px;
+    height: 28px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.display-table-button-no:hover{
+    background-color: #8f9797;
+    transition: all 0.3s ease-out;
+}
+
+.display-table-button-yes{
+    font-weight: 12px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 124px;
+    height: 28px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 8px;
+
+}
+
+.display-table-button-yes:hover{
+    background-color: #8f9797;
+    transition: all 0.3s ease-out;
+}
